@@ -101,7 +101,7 @@ export default function Data() {
         return (
           <div className="card mb-3" key={items.id} >
             <div className="card-body">
-              <div className={`${items.isCompleted ? "completedcard" : ""} `}>
+              <div className={`${items.isCompleted ? "completedcard" : ""} content`}>
                 {items.content}
               </div>
               <div className="card-items">
