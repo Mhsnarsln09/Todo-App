@@ -41,7 +41,7 @@
     opacity: 0.5;
 }
 .content{
-    inline-size: 150px;
+    inline-size: 75%;
     overflow-wrap: break-word;
 }
 
@@ -51,5 +51,9 @@
     }
     .card{
         width:80%
+    }
+    .content{
+        inline-size: 55%;
+        overflow-wrap: break-word;
     }
 }
