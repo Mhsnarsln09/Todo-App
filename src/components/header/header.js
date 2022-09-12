@@ -15,7 +15,7 @@ export function Header() {
         <nav className={theme === "light" ? "navbar bg-light" : "navbar navbardark"} >
             <div className="container-fluid header" >
                 <div className='header-left'>
-                    <h3>Todo App1</h3>
+                    <h3>Todo App</h3>
                 </div>
                 {user && 
                 <div className='header-center'>
