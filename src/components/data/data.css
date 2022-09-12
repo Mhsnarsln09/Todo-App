@@ -1,0 +1,51 @@
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dataAdd{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.inputAdd{
+    width: 100%;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    outline: whitesmoke;
+    border-radius: 15px;
+}
+.card{
+    width: 60%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px #888888;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.card-items input{
+    cursor: pointer;
+    margin-right: 6px;
+}
+.card-items span{
+    cursor: pointer;
+    margin-right: 5px;
+}
+.completedcard{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+@media (max-width:500px){
+    .dataAdd{
+        width: 80%;
+    }
+    .card{
+        width:80%
+    }
+}

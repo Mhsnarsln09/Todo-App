@@ -1,0 +1,58 @@
+.navbar{
+    
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+    /* style={{position:"-webkit-sticky", position:"sticky", top:"0", zIndex:"2"}}} */
+.header-left{
+    margin-left: 2%;
+    font-family: 'Qwitcher Grypen', cursive;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-right{
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lighticons{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.darkicons{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header-center h5{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.spanlight {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 200,
+  'opsz' 48;
+  cursor: pointer;
+}
+
+
+@media(max-width:500px) {
+    .header-left h3 {
+        font-size: calc(0.8rem + .6vw);
+    }
+    .header-center h5 {
+        font-size: 0.75rem;
+    }
+    
+}
+
+    
+ 
