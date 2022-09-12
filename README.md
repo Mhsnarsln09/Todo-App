@@ -13,7 +13,8 @@
 
 ### LOGIN PAGE
 
-![Login](Ads%C4%B1z.png)
+![Adsız](https://user-images.githubusercontent.com/94838351/189637004-eababee3-4d17-4c71-a480-c2253a4b52d9.png)
+
 
 
 
@@ -42,6 +43,7 @@
 
 
 
+![Adsız1](https://user-images.githubusercontent.com/94838351/189637063-e12581e7-39dc-41dd-9bd3-a90ca20cad5c.png)
 
-![HomePage](Ads%C4%B1z1.png)
+
 
