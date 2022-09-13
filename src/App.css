@@ -24,3 +24,12 @@ body.dark .btndark{
 body.dark .btndark:hover{
     opacity: 0.9;
 }
+body.dark .modal-content{
+    background-color: #5B4B8A;
+}
+body.dark .modal-header{
+    border-bottom: var(--bs-modal-header-border-width) solid #41464b; 
+}
+body.dark .modal-footer{
+  border-top: var(--bs-modal-footer-border-width) solid #41464b;
+}
